@@ -21,7 +21,6 @@ public class GameManager : MonoBehaviour
 
         winScreen.SetActive(true);
         cellsContainer.tutorialActive = false;
-        PlayerPrefs.SetInt("tutorialPassed", 1);
     }
 
     public void WipeCheck()
