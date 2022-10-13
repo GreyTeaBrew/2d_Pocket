@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
-
+        cellsContainer.Save();
         VictoryCheck();
     }
 

@@ -510,7 +510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8914841833020157347, guid: ff3096ecbc5b642ee9f918ec7c3a7a1d, type: 3}
       propertyPath: fill
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8914841833020157347, guid: ff3096ecbc5b642ee9f918ec7c3a7a1d, type: 3}
       propertyPath: canGrab

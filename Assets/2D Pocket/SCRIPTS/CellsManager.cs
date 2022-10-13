@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.iOS;
 
 public class CellsManager : MonoBehaviour
 {
@@ -40,7 +39,9 @@ public class CellsManager : MonoBehaviour
 
         if (!PlayerPrefs.HasKey("tutorialPassed"))
         {
+            Debug.Log("Tut");
             TutorialFill();
+            PlayerPrefs.SetInt("tutorialPassed", 1);
         }
     }
 
